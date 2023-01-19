@@ -1,0 +1,89 @@
+body {
+	background-image: url("station.jpg");
+	background-size: cover;
+	font-family: Tahoma, Verdana, Arial, Georgia;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+
+	/* After modify */
+	/* height: 100vh; */
+}
+
+/* After modify */
+/* .container {
+	background: transparent;
+	max-width: 50%;
+	margin: auto;
+} */
+
+/* h1 {
+	margin-top: 90px;
+	/*margin-bottom: 10px;*/
+/* color: #00ffff;
+} */
+#topHeading {
+	margin-top: 90px;
+	/*margin-bottom: 10px;*/
+	color: #00ffff;
+}
+
+h2 {
+	margin-top: 0;
+	/*margin-bottom: 20px;*/
+	font-size: 40px;
+}
+
+button {
+	border: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	font-weight: bold;
+	width: 100px;
+	border-radius: 25px;
+	/*margin-bottom: 5px;*/
+}
+
+#count-btn {
+	/* background: #03045e; */
+	background: #8338ec;
+}
+
+#entry-btn {
+	background: darkgreen;
+}
+
+#exit-btn {
+	background: darkred;
+}
+
+#reset-btn {
+	background: #eb5e28;
+	/* background: #fca311;
+	background: #432818; */
+}
+
+/* p {
+	color: aqua;
+	color: #f72585;
+	color: gold;
+} */
+
+#entry-el {
+	color: darkgreen;
+	font-weight: 900;
+}
+
+#exit-el {
+	color: darkred;
+	font-weight: 900;
+}
+
+#total {
+	margin-bottom: 0px;
+}
+
+#totalSum {
+	margin-top: 0px;
+}
