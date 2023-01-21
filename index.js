@@ -4,9 +4,18 @@ let entryEl = document.getElementById("entry-el");
 let exitEl = document.getElementById("exit-el");
 let totalEl = document.getElementById("totalSum");
 
-function countCheker() {
+function countUp() {
   count += 1;
   countEl.textContent = count; // textContent is better than innerText
+}
+
+function countDown() {
+  if (count == 0) {
+    alert("Sorry, there is no passenger.")  
+  } else {
+    count -= 1;
+    countEl.textContent = count;
+  }
 }
 
 function entry() {
@@ -22,14 +31,12 @@ function exited() {
     alert("Sorry, Exit Number can't be greater than Total Number.");
     countEl.textContent = 0;
     count = 0;
-
   } else {
     let countMinus = count + " - ";
     exitEl.textContent += countMinus;
     totalEl.textContent = parseInt(totalEl.textContent) - count;
     countEl.textContent = 0;
-    count = 0;
-    
+    count = 0;    
   }
 }
 
