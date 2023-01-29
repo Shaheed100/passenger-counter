@@ -10,7 +10,7 @@ function countUp() {
 }
 
 function countDown() {
-  if (count == 0) {
+  if (count === 0) {
     alert("Sorry, there is no passenger.")  
   } else {
     count -= 1;
